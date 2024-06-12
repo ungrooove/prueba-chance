@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: "roboto";
+    font-family: sans-serif;
     background-image: url(P1060795.jpeg);
     position: relative;
     background-position: center;
@@ -16,9 +16,9 @@ body{
     text-align: center;
     color: white;
     background-color: rgba(179, 179, 179, 0.452);
-    padding: 10px 10px;
+    padding: 0px 0px;
     box-sizing: content-box;
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px 0;
     width: 300px;
     border-radius: 50px;
@@ -47,17 +47,18 @@ body{
 }
 
 .nav-bar:hover{
-    padding: 5px;
+    padding: 10px;
 }
 
 .nav-list-item{
     position: relative;
-    top: -15px;
+    top: -16px;
     left: -5px;
     padding: 10px 10px;
     text-decoration: none;
     color: rgb(255, 255, 232);
     transition: color .5s;
+    font-weight: 100;
 }
 
 
@@ -92,15 +93,9 @@ h1{
 
 }
 
-.spotify{
-    position: absolute;
-    width: 30vw;
-    height: 12vh;
-    top: 87vh;
-    right: 1vw;
-    transition: padding 1s;
-}
-
-.spotify:hover{
-    padding: 0px 20px;
+.footer{
+    background-color: grey;
+    width: 100%;
+    bottom: -40vh;
+    
 }
