@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: "roboto";
+    background-image: url(P1060795.jpeg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.nav-container{
+    display: block;
+    position: relative;
+    left: 38vw;
+    text-align: center;
+    color: white;
+    background-color: rgba(179, 179, 179, 0.452);
+    padding: 10px 10px;
+    box-sizing: content-box;
+    font-size: 20px;
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.logo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 0.3vh;
+    right: 0.4vw;
+    opacity: 0.7;
+    transition: rotate 1s, opacity 1s;
+    rotate: 5deg;
+}
+
+.logo:hover{
+    opacity: 1;
+    rotate: 15deg;
+}
+
+
+.nav-bar{
+    margin: auto;
+    transition: padding 1s;
+}
+
+.nav-bar:hover{
+    padding: 5px;
+}
+
+.nav-list-item{
+    position: relative;
+    top: -15px;
+    left: -5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 232);
+    transition: color .5s;
+}
+
+
+
+.nav-list-item:hover{
+    color: rgb(142, 96, 202);
+}
+
+
+
+h1{
+    
+    margin: auto;
+}
+
+.chance{
+    text-align: center;
+    position: relative;
+    bottom: -11vh;
+    left: -1vw;
+    box-sizing: border-box;
+    font-size: 20vw;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.253);
+    transition: color 1s, font-size 1s;
+    cursor: default;
+}
+
+.chance:hover{
+    font-size: 22vw;
+    color: rgba(247, 244, 72, 0.829);
+
+}
+
+.spotify{
+    position: absolute;
+    width: 30vw;
+    height: 12vh;
+    top: 87vh;
+    right: 1vw;
+    transition: padding 1s;
+}
+
+.spotify:hover{
+    padding: 0px 20px;
+}
