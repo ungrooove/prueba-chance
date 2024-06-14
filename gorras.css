@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(P1060795.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav-container{
+    display: block;
+    position: relative;
+    left: 38vw;
+    text-align: center;
+    color: white;
+    background-color: rgba(179, 179, 179, 0.452);
+    padding: 0px 0px;
+    box-sizing: content-box;
+    font-size: 18px;
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.logo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 0.3vh;
+    right: 0.4vw;
+    opacity: 0.7;
+    transition: rotate 1s, opacity 1s;
+    rotate: 5deg;
+}
+
+.logo:hover{
+    opacity: 1;
+    rotate: 15deg;
+}
+
+
+.nav-bar{
+    margin: auto;
+    transition: padding 1s;
+}
+
+.nav-bar:hover{
+    padding: 10px;
+}
+
+.nav-list-item{
+    position: relative;
+    top: -16px;
+    left: -5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 232);
+    transition: color .5s;
+    font-weight: 100;
+}
+
+
+
+.nav-list-item:hover{
+    color: rgb(142, 96, 202);
+}
+
+
+
+.main-container{
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    top: 3vh;
+    background-color: rgba(179, 179, 179, 0.452);
+    border-radius: 30px;
+
+}
+
+.info-cont{
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    width: 30%;
+    height: 50%;
+    margin: 10px;
+    border: .5px solid rgba(223, 230, 169, 0.185);
+    border-right: none;
+    box-shadow: -1px -1px 1px 1px rgba(0, 0, 0, 0.199);
+    border-radius: 20px;
+
+}
+
+.title{
+    font-size: 23px;
+    line-height: 130%;
+    text-align: start;
+    position: absolute;
+    top: 2vh;
+    left: 1.5vw;
+    color: rgb(255, 255, 232);
+}
+
+
+.precio{
+    font-size: 35px;
+    color: rgb(248, 248, 248);
+    position: absolute;
+    top: 9vh;
+    left: 1.5vw;
+    
+}
+
+.cuotas{
+    position: absolute;
+    top: 18vh;
+    left: 1.5vw;
+    color: rgb(216, 216, 216);
+
+}
+
+.buy{
+    position: relative;
+    text-align: center;
+    width: 40%;
+    top: 78%;
+    left: 28%;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    transition: color, background-color, .3s;
+    cursor: pointer;
+}
+
+.buy:hover{
+    color: rgb(248, 248, 248);
+    background-color: rgba(238, 208, 76, 0.473);
+}
+
+.img-cont{
+    position: absolute;
+    top: 10vh;
+    left: 1.5vw;
+}
+
+.img{
+    border-radius: 30px;
+    transition: width .5s;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.596));
+}
+
+
+.img--1{
+    width: 50vw;
+}
+
+.img--2{
+    position: absolute;
+    left: 10vw;
+    width: 28vw;
+    opacity: 0;
+}
+
+.img--3{
+    position: absolute;
+    top: 0;
+    left: 8vw;
+    width: 38vw;
+    opacity: 0;
+}
+
+
+
+.min-cont{
+    position: absolute;
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 30px;
+    bottom: 3vh;
+    left: 17vw;
+}
+
+
+.img-min{
+    display: inline-block;
+    width: 50px;
+    border-radius: 30%;
+    padding: 0px 15px;
+}
+
+.img-min--1{
+    position: absolute;
+    bottom: .3vh;
+}
+
+.img-min--2{
+    position: absolute;
+    bottom: .3vh;
+    left: 8.5vw;
+    width: 2vw;
+}
+
+.img-min--3{
+    position: absolute;
+    bottom: .3vh;
+    left: 14vw;
+    width: 2.8vw;
+}
