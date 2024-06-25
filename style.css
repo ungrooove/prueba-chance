@@ -90,7 +90,7 @@ body{
 
 .gig-icon{
     position: relative;
-    left: 1vw;
+    left: 13px;
     width: 50px;
     height: 50px;
     transition: rotate, opacity, .5s;
@@ -125,5 +125,18 @@ h1{
 .chance:hover{
     font-size: 22vw;
     color: rgba(247, 244, 72, 0.829);
+
+}
+
+
+.copyright{
+    position: fixed;
+    bottom: -5px;
+    right: 0;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.226);
+    font-size: 13px;
+    font-style: italic;
+    cursor: default;
 
 }
